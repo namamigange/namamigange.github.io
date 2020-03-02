@@ -300,16 +300,16 @@ function init() {
       style.display = "";
       style.cursor = "pointer";
       if (node._depth == 0) {
-        style.fontSize = "1em";
+        style.fontSize = "2em";
         style.color = "#000080";
-        style["font-weight"] = "800";
+        style.fontWeight = "800";
       } else if (node._depth == 1) {
-        style.fontSize = "0.8em";
-        style["font-weight"] = "500";
+        style.fontSize = "1em";
+        style.fontWeight = "500";
         style.color = "#000080";
       } else if (node._depth == 2) {
         style.fontSize = "0.6em";
-        style["font-weight"] = "100";
+        style.fontWeight= "100";
         style.color = "#000080";
       } else {
         style.display = "none";
