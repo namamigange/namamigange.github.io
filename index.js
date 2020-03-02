@@ -300,7 +300,7 @@ function init() {
       style.display = "";
       style.cursor = "pointer";
       if (node._depth == 0) {
-        style.fontSize = "2em";
+        style.fontSize = "1.4em";
         style.color = "#000080";
         style.fontWeight = "800";
       } else if (node._depth == 1) {
