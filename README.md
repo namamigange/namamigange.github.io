@@ -1,2 +1,2 @@
 # namamigange.github.io
-Source code for namamegange.github.io
+Source code for namamigange.github.io
